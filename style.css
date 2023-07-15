@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+/* header */
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+.logo{
+    height: 60px;
+    width: 140px;
+    cursor: pointer;
+}
+.nav-link li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+.nav-link li a{
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+.present{
+    background-color: #4183ec;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+.nav-login{
+    gap: 20px;
+    display: flex;
+}
+.nav-logi{
+    background-color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.nav-logi:hover{
+    background-color: #4183ec;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+.nav-logi a{
+    text-decoration: none;
+    color: #000;
+}
+.nav-link li a:hover{
+    background-color: #4183ec;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+.con{
+    padding: 0 7%;
+    text-align: center;
+    padding-top: 5%;
+}
+.con h3{
+    font-size: 3vw;
+    font-weight: 500;
+    color: #fff;
+    margin: 10px 0 40px;
+}
+.container{
+    padding: 0 9%;
+}
+.header h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 9%;
+}
+.search-bar{
+    background: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.search-bar form input[type="date"] {
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+    margin-top: 4px;
+    margin-right: 30px; 
+    border-radius: 40px;
+}
+.search-bar form button{
+    background: #4183ec;
+    width: 55px;
+    height: 55px;
+    border-radius: 40px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.Location-input{
+    flex: 1;
+}
+.search-bar form label{
+    font-weight: 600;
+}
+/* Offer section */
+.offers{
+    border-radius: 10px;
+    box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 25px 40px 40px;
+    min-height: 300px;
+    width: 1300px;
+    margin: 5% auto;
+}
+.offers-heading h2{
+    font-size: 38px;
+    font-weight: 550;
+    color: black;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.coloum{
+    margin-top: 20px;
+    display: flex;
+    height: 160px;
+    width: 600px;
+    border-radius: 20px;
+    padding: 20px 12px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.2);
+    
+}
+.coloum img{
+    height: 140px;
+    width: 200px;
+}
+.coloum a{
+    color: #1c6ded;
+    text-decoration: none;
+}
+.coloum-text{
+    border: 1px solid transparent;
+    width: 380px;
+    height: 130px;
+    text-align: left;   
+    padding-left: 10px;
+}
+.coloum-text h5{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600px;
+}
+.coloum-text a{
+    font-family: 'Arial Narrow Bold';
+    color: #4183ec;
+    text-decoration: none;
+}
+/* tranding places */
+.tranding{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+.sub-headigs {
+    margin: 50px 0 20px;
+    font-size: 2vw;
+    font-weight: 500;
+    color: #3b3b3b;
+}
+.tranding div img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.tranding h3{
+    font-weight: 600;
+    margin-top: 10px;
+}
+/* to action */
+.cta{
+    margin: 80px 0;
+    background-image: linear-gradient(to right,#3f2321,transparent),url(share.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+    color: #fff;
+}
+.cta h3{
+    font-size: 4vw;
+    line-height: 5.5vw;
+    font-weight: 500;
+}
+.cta p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.cta-btn{
+    background: #4183ec;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 30px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.stories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px; 
+}
+.stories div img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.stories div {
+    position: relative;
+    text-align: center;
+}
+.stories p{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 26px;
+}
+.more-btn{
+    text-decoration: none;
+    background-color: #4183ec;
+    color: #fff;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+/* app section */
+.App{
+    border-radius: 10px;
+    box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 25px 40px 40px;
+    min-height: 200px;
+    width: 1000px;
+    margin: 5% auto;
+    justify-content: space-between;
+}
+.App h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+.form-app{
+    display: flex;
+}
+.form-app input {
+    width: 20pc;
+    height: 50px;
+    border: 1px solid #292929;
+}
+.form-app button {
+    height: 53px;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #1c6ded;
+}
+.form-app button a {
+    text-decoration: none;
+    color: #1c6ded;
+}
+.app-coloum{
+    display: flex;
+}
+.app-img-col{
+    display: flex;
+    justify-content: space-between;
+}
+.app-img a img{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 72px;
+    width: 180px;
+    margin-left: 60px;
+    margin-top: 17px;
+}
+.QRcode img{
+    border: 1px solid transparent;
+    height: 180px;
+    width: 180px;
+    margin-left: 60px;
+}
+/* fotter */
+footer{
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    display: flex;
+}
+.icons{
+    flex: 1;
+    margin-left: 250px;
+}
+.icons a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size:32px;
+}
+.icons li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+.icons li a{
+    text-decoration: none;
+    padding: 8px 20px;
+}
+.copyright{
+    border: 1px solid transparent;
+    margin-right: 50px;
+    text-align: right;
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(192, 192, 192, 0.7),rgba(163, 163, 163, 0.7)) ,url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav .fa{
+    font-size: 22px;
+    cursor: pointer;
+}
+.form{
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    padding: 48px;
+    position: relative;
+    text-align: left;
+    top: 4pc;
+    bottom: 10pc;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 15px 30px 15px 30px;
+}
+.form input{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+.form button{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #148505d6;
+    padding: 20px;
+    bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #148505d6;
+    color: #fff;
+}
+.google button{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #453ea7d1;
+    padding: 20px;
+    bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #453ea7d1;
+    color: #fff;
+}
